@@ -6,6 +6,9 @@
 
 This project provides a highly optimized, easy-to-use system for drawing animated eyes on an SSD1306 OLED display. Unlike traditional code that pauses your robot to blink, **RoboEyes is non-blocking**. This means your robot can sense the world, move motors, and process data *while* looking around!
 
+## 🎥 Demo
+![Robot Eyes Animation](https://github.com/pstarz7/RobotEyes-animation-for-Arduino/blob/main/robot%20eye.gif?raw=true)
+
 ## ✨ Features
 
 * **🚫 Non-Blocking:** No `delay()` used! Your main loop stays fast for sensors.
