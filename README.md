@@ -1,4 +1,4 @@
-# 🤖 RoboEyes: Smooth OLED Expressions for Arduino & ESP32
+# 🤖 RoboEyes: Smooth OLED Expressions for Arduino
 
 ![Project Status](https://img.shields.io/badge/Status-Active-green) ![Platform](https://img.shields.io/badge/Platform-Arduino%20|%20ESP32-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
