@@ -50,7 +50,7 @@ This project provides a highly optimized, easy-to-use system for drawing animate
 
 Don't have hardware yet? Test the code in your browser!
 
-1.  Go to [Wokwi.com](https://wokwi.com/projects/new/arduino-uno).
+1.  Go to [Wokwi.com]([https://wokwi.com/projects/new/arduino-uno](https://wokwi.com/projects/445930005732919297)).
 2.  Click the purple **"+"** button and add an **SSD1306** display.
 3.  Connect **VCC** to 5V, **GND** to GND, **SDA** to A4, **SCL** to A5.
 4.  Paste the `RoboEyes` code into the code editor.
@@ -72,3 +72,34 @@ setExpression(ANGRY);
 
 // Go back to normal
 setExpression(IDLE);
+```
+
+## 🎛️ Control via Serial Monitor
+
+You can test expressions efficiently by typing these numbers into the Arduino **Serial Monitor** (Make sure the Baud Rate is set to **9600**).
+
+| ID | Expression | ID | Expression |
+| :--- | :--- | :--- | :--- |
+| **0** | Idle | **7** | Look Right |
+| **1** | Happy | **8** | Confused |
+| **2** | Sad | **9** | Bored |
+| **3** | Angry | **10** | Scared |
+| **4** | Surprised | **11** | Sleepy |
+| **5** | Blink | **12** | Asleep |
+| **6** | Look Left | **13** | Wakeup |
+
+---
+
+## ⚙️ Configuration (Advanced)
+
+You can tweak settings at the very top of the code to match your robot's physical design:
+
+* `REF_EYE_W` / `REF_EYE_H`: Adjusts the width and height of the eyes (Default: 40).
+* `REF_SPACE`: Adjusts the gap/distance between the two eyes (Default: 10).
+* `autoBlink`: Set this to `false` if you want to disable random blinking and control it manually.
+
+---
+
+## 📜 License
+
+This project is **open-source**. Feel free to use it in your personal robots, school projects, or commercial prototypes!
