@@ -50,7 +50,7 @@ This project provides a highly optimized, easy-to-use system for drawing animate
 
 Don't have hardware yet? Test the code in your browser!
 
-1.  Go to [Wokwi.com]([https://wokwi.com/projects/new/arduino-uno](https://wokwi.com/projects/445930005732919297)).
+1.  Go to [Wokwi.com](https://wokwi.com/projects/445930005732919297).
 2.  Click the purple **"+"** button and add an **SSD1306** display.
 3.  Connect **VCC** to 5V, **GND** to GND, **SDA** to A4, **SCL** to A5.
 4.  Paste the `RoboEyes` code into the code editor.
